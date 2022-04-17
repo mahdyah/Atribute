@@ -1,0 +1,95 @@
+
+
+.page .topOfPage .heading{
+    font-size: x-large;
+    align-items: center;  
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.page .bottom .head{
+    
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+   
+}
+.page .topOfPage .who{
+    margin-left: 20%;
+}
+.page .topOfPage .pic{
+   
+    border-radius: 10px;
+    margin-left: 25%;
+
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html,body{
+   
+
+    height: 100%;
+    width: 100%;
+    /* place-items: center; */
+    background-color: #C3A07E;
+
+}
+.bottomOfPage{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px;
+    column-gap: 20%;
+    row-gap: 20%;
+    place-items: center;
+    margin-left: 12%;
+   
+    
+}
+.bottomOfPage .wrapper .button{
+place-items: center;
+
+height: 60px;
+width: 60px;
+overflow: hidden;
+background-color: transparent;
+/* border-radius: 20px; */
+cursor: pointer;
+box-shadow:0px 10px 10px rgba(0,0,0,0,0.1);
+transition:all 0.3s ease-out;
+
+}
+.bottomOfPage .wrapper .button:hover{
+width: 700px;
+}
+
+.page .bottomOfPage .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* border-radius: 20px; */
+    box-sizing: border-box;
+    line-height: 60px;
+    text-align: center;
+}
+.page .bottomOfPage .wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.page .bottomOfPage .wrapper .button span{
+    line-height: 60px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 10px; 
+    margin-bottom: 5px;
+ }  
+ .page .ending{
+     height: 5%;
+ }
+
+ 
